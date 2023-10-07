@@ -40,7 +40,7 @@ a:hover{
     text-underline-offset: 10px;
 }
 .about{
-    height: 80vh;
+    height: 70vh;
 }
 .about-container{
     display: flex;
@@ -121,11 +121,11 @@ h1{
 }
 .about-me-container{
     margin-top: 20px;
-    height: 90vh;
+    height: 70vh;
     display: flex;
     gap: 1.5rem;
     justify-content: space-around;
-    align-items: center;
+    
 }
 .experience{
     display: flex;
@@ -141,7 +141,7 @@ h1{
     justify-content: center;
 }
 .icons{
-    height: 50px;
+    height: 30px;
 }
 .education div {
     display: flex;
@@ -151,4 +151,42 @@ h1{
     border: 1.5px solid black;
     padding: 20px 30px;
     border-radius: 15px;
+}
+.explore{
+    height: 80vh;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    border: 1px solid black;
+}
+.explore h1{
+    font-size: 3rem;
+}
+.stack{
+    display: flex;
+    gap: 2rem;
+    border: 1px solid blue;
+    justify-content: space-around;
+    width: 70%;
+    
+}
+.frontend, .backend{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 1px solid  black;
+    padding: 20px 50px;
+    border-radius: 20px;
+}
+.stacklist{
+    display: flex;
+    gap: 1rem;
+
+}
+.ability{
+    display: flex;
+    flex-direction: column;
+    gap: .1rem;
 }
