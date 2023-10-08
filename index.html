@@ -5,21 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ijenebe Francis</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <script src="https://kit.fontawesome.com/cc39996a00.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="header">
         <h1 class="logo">Francis</h1>
 
-        <ul class="links">
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Experience</a>
+        <ul class="links" id="nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
             <a href="">Projects</a>
             <a href="">Contact</a>
         </ul>
+        
     </div>
 
-    <section class="about">
+    <div class="ham-links">
+        <i class="fa-solid fa-bars" style="color: #000000;"></i>
+        <ul class="links nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="">Projects</a>
+            <a href="">Contact</a>
+        </ul>
+        
+    </div>
+
+    <section class="about" id="home">
         <div class="about-container">
             <div class="image-container"><img src="./assets/WhatsApp Image 2023-10-03 at 20.44.46-modified.png" alt="" class="profile-pic"></div>
             <div class="info-container">
@@ -34,7 +49,7 @@
         </div>
     </section>
 
-    <section class="about-me">
+    <section class="about-me" id="about">
         <p>Get to know more</p>
         <h1>About Me</h1>
         <div class="about-me-container">
@@ -54,19 +69,19 @@
                         <p>From 2019 to 2025</p>
                     </div>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam minima cupiditate a alias mollitia, delectus repellendus nostrum. Unde quae autem praesentium ea non molestias veniam culpa placeat consectetur, ipsa voluptate explicabo eius impedit aspernatur soluta! Maiores rem, est natus distinctio omnis voluptatibus ut totam id odit debitis dolorum dicta quod?</p>
+                <p class="write-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam minima cupiditate a alias mollitia, delectus repellendus nostrum. Unde quae autem praesentium ea non molestias veniam culpa placeat consectetur, ipsa voluptate explicabo eius impedit aspernatur soluta! Maiores rem, est natus distinctio omnis voluptatibus ut totam id odit debitis dolorum dicta quod?</p>
             </div>
         </div>
     </section>
 
-    <section class="explore">
+    <section class="explore" id="experience">
         <p>Explore my</p>
         <h1>EXPERIENCE</h1>
         <p>From Basic => Intermediate => Experienced</p>
 
         <div class="stack">
             <div class="frontend">
-                <h3>Frontend Development</h3>
+                <h3>Mobile Development</h3>
                 <div class="stacklist">
                     <img src="./assets/checkmark.png" alt="" class="icons">
                     <div class="ability">
@@ -114,6 +129,12 @@
                 </div>
             </div>
         </div>
+    </section>
+    
+
+    <section class="projects">
+        <p>Browse my recent</p>
+        <h1>PROJECTS</h1>
     </section>
 
     <script src="script.js"></script>

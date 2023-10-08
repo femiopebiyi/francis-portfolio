@@ -1,0 +1,132 @@
+@media screen and (max-width: 1154px) {
+    #nav{
+        display: none;
+    }
+
+    .header h1{
+        position: absolute;
+        left: 5%;
+        top: 2%;
+        
+        margin: 0;
+    }
+
+    .ham-links{
+        
+    }
+
+    .fa-bars{
+        position: absolute;
+        top: 5%;
+        right: 20%;
+        transform: scale(2);
+        
+        
+        
+    }
+
+    .nav-links{
+        
+        
+        flex-direction: column;
+        margin-right: 5%; 
+        gap: .3rem;
+        width: 250px;
+        align-items: center;
+        position: absolute;
+        top: 10%;
+        right: 10%;
+        background-color: rgb(85, 85, 85);
+        
+    }
+
+
+    .about{
+        height: 80vh;
+    }
+
+    .image-container{
+        
+        height: fit-content;
+    }
+    .profile-pic {
+        height: 200px;
+        
+    }
+    .press{
+        height: 275px;
+        width: 275px;
+    }
+
+    .about-container{
+        flex-direction: column;
+        gap:  1rem;
+        margin-top: 10px;
+        justify-content: flex-start;
+        
+    }
+    .info-container{
+        
+        
+    }
+    .about-me-container{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 100vh;
+        
+    }
+        .stack {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            
+            justify-content: flex-start;
+            align-items: center;
+            width: 70%;
+    
+        }
+        .education{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            justify-content: flex-start;
+            align-items: center;
+
+}
+        .education div {
+            display: flex;
+            flex-direction: column;
+            gap: .2rem;
+            align-items: center;
+            border: 1.5px solid black;
+            padding: 10px 15px;
+            border-radius: 15px;
+        }
+
+        .write-up{
+            text-align: center;
+            width: 300px;
+            word-wrap: break-word;
+            
+        }
+
+    .explore{
+        height: 100vh;
+        gap: 0.5rem;
+    }
+    .frontend, .backend{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        border: 1px solid  black;
+        padding: 10px 30px;
+        border-radius: 20px;
+}
+}
+
+@media screen and (min-width: 1154px) {
+    .ham-links{
+        display: none;
+    }
+}
