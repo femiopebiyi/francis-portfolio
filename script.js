@@ -1,7 +1,6 @@
-const hamButton =  document.querySelector('.fa-bars');
-const hamLinks =  document.querySelector('.nav-links');
-hamLinks.classList.add('clicked');
-
-hamButton.addEventListener('click', function(){
-    hamLinks.classList.toggle('clicked')
-})
+function toggleMenu() {
+    const menu = document.querySelector(".menu-links");
+    const icon = document.querySelector(".hamburger-icon");
+    menu.classList.toggle("open");
+    icon.classList.toggle("open");
+}
