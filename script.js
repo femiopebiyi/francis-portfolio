@@ -5,6 +5,12 @@ function toggleMenu() {
     icon.classList.toggle("open");
 }
 
+const menu = document.querySelector(".menu-links");
+
+// document.body.addEventListener('click', () => {
+//     menu.classList.remove('open')
+// })
+
 const downloadCv =  document.querySelector('.download-cv');
 
 downloadCv.addEventListener ('click', () => {
