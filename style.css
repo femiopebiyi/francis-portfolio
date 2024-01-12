@@ -384,6 +384,10 @@ article .icon {
     border-color: rgb(163, 163, 163);
 }
 
+.francis{
+    border-radius: 100%;
+}
+
 /* CONTACT */
 
 #contact {
